@@ -37,3 +37,7 @@ bash nextcloud-install.sh uninstall
 ```
 
 This stops Nextcloud and asks whether to remove its data too.
+
+## Part of the Proxmox Homelab setup
+
+This installer is used by [Proxmox-Homelab-Automated-Setup-Script](https://github.com/JeffTheTroubleshooter/Proxmox-Homelab-Automated-Setup-Script), which creates an LXC for each app on a Proxmox host and runs this script inside it.
